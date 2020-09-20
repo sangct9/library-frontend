@@ -4,7 +4,7 @@ window.addEventListener("scroll", function () {
 }, false);
 function showbtnscroll(){
 	var offset = 250;
-  var btnscroll = document.getElementById("scrolltop");
+  	var btnscroll = document.getElementById("scrolltop");
 	if(window.pageYOffset > 250){
 		btnscroll.classList.remove("hide");
 		btnscroll.classList.add("show");
@@ -13,7 +13,6 @@ function showbtnscroll(){
 		btnscroll.classList.add("hide");
 	}
 }
-showbtnscroll();
 function handleToTop(){
 	window.scroll({top: 0, left: 0, behavior: 'smooth' });
 }
